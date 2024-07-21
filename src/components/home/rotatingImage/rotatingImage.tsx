@@ -1,6 +1,7 @@
 'use client'
 import React, { useEffect, useState } from 'react';
-import styles from './RotatingImage.module.css';
+import styles from './rotatingImage.module.css';
+import Image from 'next/image'
 
 const RotatingImage = () => {
   const [rotate, setRotate] = useState(0);
@@ -17,11 +18,13 @@ const RotatingImage = () => {
 
   return (
     <div className={styles.container}>
-      <img
+      <Image
         src="/scroll-rotate.png"
-        alt="Rotating"
+        width={176}
+        height={176}
         className={styles.image}
         style={{ transform: `rotate(${rotate}deg)` }}
+        alt="Picture of the author"
       />
     </div>
   );

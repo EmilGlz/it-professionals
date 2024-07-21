@@ -8,9 +8,7 @@
 }
 
 .image {
-    width: 200px;
-    /* Adjust image size as needed */
     height: auto;
     transition: transform 0.2s ease;
-    /* Smooth rotation transition */
+    margin-top: 600px;
 }
