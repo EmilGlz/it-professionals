@@ -23,7 +23,7 @@ const RotatingImage = () => {
         width={176}
         height={176}
         className={styles.image}
-        style={{ transform: 'rotate(${rotate}deg)' }}
+        style={{ transform: `rotate(${rotate}deg)` }}
         alt='Picture of the author'
       />
     </div>
