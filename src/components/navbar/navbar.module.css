@@ -1,9 +1,11 @@
 .container {
+  width: 100%;
   height: 100px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 64px; /* Adjust padding as needed */
+  padding: 0 64px;
+  /* Adjust padding as needed */
 }
 
 .logo {
@@ -17,7 +19,8 @@
 .logoImage {
   width: 62px;
   height: 70px;
-  margin-left: 8px; /* Adjust spacing as needed */
+  margin-left: 8px;
+  /* Adjust spacing as needed */
 }
 
 .links {
@@ -29,18 +32,21 @@
 
 .link {
   text-decoration: none;
-  transition: color 0.3s ease; /* Transition for color change */
+  transition: color 0.3s ease;
+  /* Transition for color change */
 }
 
 .link:hover {
-  color: #5d45fd; /* Change this to the desired hover color */
+  color: #5d45fd;
+  /* Change this to the desired hover color */
 }
 
 .rightBox {
   display: flex;
   align-items: center;
   padding: 16px 36px;
-  background-color: #5D45FD; /* Adjust background color as needed */
+  background-color: #5D45FD;
+  /* Adjust background color as needed */
   border-radius: 16px;
   gap: 10px;
 }
@@ -49,10 +55,70 @@
   margin-right: 8px;
   font-size: 16px;
   font-weight: 700;
-  color: white; /* Change color as needed */
+  color: white;
+  /* Change color as needed */
 }
 
 .rightBoxIcon {
-  width: 20px; /* Adjust size as needed */
-  height: 20px; /* Adjust size as needed */
+  width: 20px;
+  /* Adjust size as needed */
+  height: 20px;
+  /* Adjust size as needed */
+}
+
+.sidebar {
+  display: none;
+}
+
+.sidebarButton {
+  display: none;
+}
+
+.sidebar Link {
+  width: 100%;
+}
+
+.visible {
+  transform: translateX(0);
+  /* Visible position */
+}
+
+.hidden {
+  transform: translateX(100%);
+  /* Hidden position (off-screen) */
+}
+
+@media (max-width: 885px) {
+  .links {
+    display: none;
+  }
+
+  .rightBox {
+    display: none;
+  }
+
+
+  .sidebarButton {
+    display: block;
+    right: 16px;
+  }
+
+  .sidebar {
+    position: fixed;
+    top: 100px;
+    right: 0;
+    height: 100%;
+    width: 250px;
+    z-index: 999;
+    background-color: rgba(105, 105, 105, 0.153);
+    backdrop-filter: blur(10px);
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-left: 10px;
+    padding-top: 10px;
+    gap: 50px;
+  }
 }
