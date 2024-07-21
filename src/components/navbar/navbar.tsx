@@ -35,7 +35,7 @@ const Navbar = () => {
         ))}
       </div>
       <div className={styles.rightBox}>
-        <span className={styles.rightBoxText}>Let's Talk</span>
+        <span className={styles.rightBoxText}>Let&apos;s Talk</span>
         <img alt="" src="/lets-talk.png" className={styles.rightBoxIcon} />
       </div>
     </div>
