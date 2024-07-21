@@ -1,0 +1,58 @@
+.container {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 64px; /* Adjust padding as needed */
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  font-size: 28px;
+  color: #5d45fd;
+}
+
+.logoImage {
+  width: 62px;
+  height: 70px;
+  margin-left: 8px; /* Adjust spacing as needed */
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 16px;
+}
+
+.link {
+  text-decoration: none;
+  transition: color 0.3s ease; /* Transition for color change */
+}
+
+.link:hover {
+  color: #5d45fd; /* Change this to the desired hover color */
+}
+
+.rightBox {
+  display: flex;
+  align-items: center;
+  padding: 16px 36px;
+  background-color: #5D45FD; /* Adjust background color as needed */
+  border-radius: 16px;
+  gap: 10px;
+}
+
+.rightBoxText {
+  margin-right: 8px;
+  font-size: 16px;
+  font-weight: 700;
+  color: white; /* Change color as needed */
+}
+
+.rightBoxIcon {
+  width: 20px; /* Adjust size as needed */
+  height: 20px; /* Adjust size as needed */
+}
