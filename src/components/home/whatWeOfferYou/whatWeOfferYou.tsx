@@ -2,7 +2,7 @@ import React from 'react'
 import OfferingBox from './offeringBox/offeringBox'
 import styles from "./whatWeOfferYou.module.css";
 
-type Offering = {
+export type Offering = {
     icon: string,
     title: string,
     description: string,
