@@ -9,7 +9,7 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
+        'radial-gradient': 'radial - gradient(169.40 % 89.55 % at 94.76 % 6.29 %, rgba(0, 0, 0, 0.40) 0 %, rgba(255, 255, 255, 0.00) 100 %)',
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
