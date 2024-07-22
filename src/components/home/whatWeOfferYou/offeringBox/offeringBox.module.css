@@ -1,0 +1,30 @@
+.container {
+    width: 310px;
+    height: 343px;
+    background-color: #1E1E1E;
+    border-radius: 40px;
+    border-color: #3E3D3D;
+    border-width: 1px;
+}
+
+.icon {
+    position: relative;
+    top: 24px;
+    left: 24px;
+}
+
+.title {
+    position: relative;
+    margin-top: 55px;
+    width: 100%;
+    text-align: center;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.description {
+    text-align: center;
+    margin-left: 44px;
+    margin-right: 44px;
+    margin-top: 44px;
+}

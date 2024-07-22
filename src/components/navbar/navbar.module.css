@@ -89,8 +89,17 @@
 }
 
 @media (max-width: 885px) {
+
+  .container{
+    padding: 8px;
+  }
+
   .links {
     display: none;
+  }
+
+  .logo{
+    font-size: 16px;
   }
 
   .rightBox {
