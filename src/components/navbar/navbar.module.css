@@ -41,31 +41,6 @@
   /* Change this to the desired hover color */
 }
 
-.rightBox {
-  display: flex;
-  align-items: center;
-  padding: 16px 36px;
-  background-color: #5D45FD;
-  /* Adjust background color as needed */
-  border-radius: 16px;
-  gap: 10px;
-}
-
-.rightBoxText {
-  margin-right: 8px;
-  font-size: 16px;
-  font-weight: 700;
-  color: white;
-  /* Change color as needed */
-}
-
-.rightBoxIcon {
-  width: 20px;
-  /* Adjust size as needed */
-  height: 20px;
-  /* Adjust size as needed */
-}
-
 .sidebar {
   display: none;
 }
@@ -101,11 +76,6 @@
   .logo{
     font-size: 16px;
   }
-
-  .rightBox {
-    display: none;
-  }
-
 
   .sidebarButton {
     display: block;

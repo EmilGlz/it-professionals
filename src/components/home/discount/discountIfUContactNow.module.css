@@ -1,8 +1,9 @@
 .container {
-    height: 100vh;
+    height: 50vh;
 }
 
 .purpleBox {
+    position: relative;
     background-color: #5D45FD;
     width: 1312px;
     height: 312px;
@@ -10,7 +11,7 @@
     margin: auto;
 }
 
-.title{
+.title {
     position: relative;
     left: 80px;
     top: 80px;
@@ -19,13 +20,13 @@
     width: 41%;
 }
 
-.description{
+.description {
     position: absolute;
     font-size: 24px;
     font-weight: 400;
     font-size: 24px;
     width: 477px;
-    right: 110px;
-    /* right: 80px; */
-
+    /* margin-right: 16px; */
+    right: 93px;
+    top: 80px
 }
