@@ -5,7 +5,7 @@ import { Offering } from '../whatWeOfferYou'
 
 const OfferingBox = ( {offering}:{offering:Offering} ) => {
   return (
-    <div className={styles.container}>
+    <div className={`${styles.container} transform transition-transform duration-300 hover:scale-105`}>
       <div className={`w-[48px] h-[48px] ${styles.icon}`}>
       <Image fill alt='offering icon' src={offering.icon} />
       </div>
