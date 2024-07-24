@@ -1,0 +1,32 @@
+.container {
+    height: 50vh;
+}
+
+.purpleBox {
+    position: relative;
+    background-color: #5D45FD;
+    width: 1312px;
+    height: 312px;
+    border-radius: 40px;
+    margin: auto;
+}
+
+.title {
+    position: relative;
+    left: 80px;
+    top: 80px;
+    font-size: 48px;
+    font-weight: 600;
+    width: 41%;
+}
+
+.description {
+    position: absolute;
+    font-size: 24px;
+    font-weight: 400;
+    font-size: 24px;
+    width: 477px;
+    /* margin-right: 16px; */
+    right: 93px;
+    top: 80px
+}
