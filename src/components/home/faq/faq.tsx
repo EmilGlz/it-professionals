@@ -40,9 +40,9 @@ const FaqBlock = () => {
           onClick={() => toggleFaq(index)}
         >
           <div className="flex justify-between items-center py-[44px] px-[44px]">
-            <h3 className="text-[32px] font-semibold">{item.question}</h3>
+            <h3 className="text-[20px] lg:text-[32px] font-semibold">{item.question}</h3>
             <span
-              className={`transition-transform transform text-[40px] ${
+              className={`transition-transform transform text-[18px] lg:text-[40px] ${
                 openIndex === index ? "rotate-45" : ""
               }`}
             >

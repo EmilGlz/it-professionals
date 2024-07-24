@@ -13,16 +13,16 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>
+      <body className="w-[90%] mx-auto lg:w-full">
         <Navbar />
-        <div className="mt-[300px] left-[-200px] absolute w-[400px] h-[400px]">
+        {/* <div className="mt-[300px] left-[-200px] absolute w-[400px] h-[400px] overflow-hidden">
           <GradientCircle />
         </div>
-        <div className="mt-[180px] right-[-250px] absolute w-[500px] h-[500px]">
+        <div className="mt-[180px] right-[-250px] absolute w-[500px] h-[500px] overflow-hidden">
           <GradientCircle />
-        </div>
+        </div> */}
         {children}
-        <Footer />
+        {/* <Footer /> */}
       </body>
     </html>
   );

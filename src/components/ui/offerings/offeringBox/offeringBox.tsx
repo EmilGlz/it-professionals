@@ -8,8 +8,8 @@ const OfferingBox = ({ offering }: { offering: Offering }) => {
       <div className='w-[48px] h-[48px] relative top-[24px] left-[24px]'>
         <Image fill alt='offering icon' src={offering.icon} />
       </div>
-      <h1 className='relative mt-[55px] w-[100%] text-center font-semibold text-[24px]'>{offering.title}</h1>
-      <p className='text-center m-[44px]'>{offering.description}</p>
+      <h1 className='relative mt-[55px] w-[100%] text-center font-semibold text-[16px] lg:text-[24px]'>{offering.title}</h1>
+      <p className='text-center m-[44px] text-[12px] lg:text-[16px]'>{offering.description}</p>
     </div>
   )
 }
