@@ -1,4 +1,5 @@
 import DiscountIfUContactNow from "@/components/home/discount/discountIfUContactNow";
+import FaqBlock from "@/components/home/faq/faq";
 import WeAreAgency from "@/components/home/weAreAgency/weareagency";
 import GradientCircle from "@/components/ui/gradient/Gradient";
 import WhatWeOfferYou from "@/components/ui/offerings/whatWeOfferYou";
@@ -17,6 +18,7 @@ export default function Home() {
       <WhatWeOfferYou />
       <DiscountIfUContactNow />
       <Strengths />
+      <FaqBlock />
     </div>
   );
 }
