@@ -48,7 +48,7 @@ const Navbar = () => {
           </Link>
         ))}
       </div>
-      <div className="">
+      <div className="hidden md:block">
         <LetsTalk config={letsTalkConfig} />
       </div>
       <div className={`${styles.sidebarButton} fixed right-0`} onClick={toggleSidebar}>
@@ -56,7 +56,7 @@ const Navbar = () => {
       </div>
       <div className={`${styles.sidebar} ${isSidebarOpen ? styles.visible : styles.hidden}`}>
         {links.map((link) => (
-          <Link key={link.id} href={link.url} className={styles.link}>
+          <Link key={link.id} href={link.url} className={styles.link} onClick={toggleSidebar}>
             {link.title}
           </Link>
         ))}

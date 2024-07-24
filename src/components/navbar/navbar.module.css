@@ -62,9 +62,9 @@
   /* Hidden position (off-screen) */
 }
 
-@media (max-width: 885px) {
+@media (max-width: 768px) {
 
-  .container{
+  .container {
     padding: 8px;
   }
 
@@ -72,7 +72,7 @@
     display: none;
   }
 
-  .logo{
+  .logo {
     font-size: 16px;
   }
 
