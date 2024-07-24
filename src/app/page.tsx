@@ -6,7 +6,7 @@ import Strengths from "@/components/ui/strengths/Strengths";
 
 export default function Home() {
   return (
-    <div className='w-[1312px] m-auto'>
+    <div className='w-[100%]  lg:w-[1312px] m-auto'>
       <WeAreAgency />
       <WhatWeOfferYou />
       <DiscountIfUContactNow />
