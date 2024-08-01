@@ -107,7 +107,7 @@ const ContactForm = () => {
                         onChange={handleChange}
                         placeholder="Enter your message here"
                         required
-                        className="w-full mt-2 p-2 rounded-[20px] border border-gray-700 bg-gray-800 text-white h-32"
+                        className="resize-none w-full mt-2 p-2 rounded-[20px] border border-gray-700 bg-gray-800 text-white h-32"
                     ></textarea>
                 </label>
                 <button

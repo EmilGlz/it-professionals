@@ -5,4 +5,5 @@
     height: 100%;
     background: radial-gradient(circle, purple 0%, purple 25%, #161616 55%, #161616 100%);
     overflow: hidden;
+    z-index: -1;
 }

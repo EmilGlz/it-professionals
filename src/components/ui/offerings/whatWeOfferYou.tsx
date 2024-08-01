@@ -53,9 +53,10 @@ const offerings: Offering[] = [
 
 const WhatWeOfferYou = () => {
     return (
-        <div className={styles.container}>
+        <div className='w-[100%] relative'>
             <p className='text-center font-bold text-white text-5xl'>What we offer you</p>
-            <div className={styles.boxContainer}>
+            {/* <div className={styles.boxContainer}> */}
+            <div className="grid grid-cols-2 xl:grid-cols-4 grid-rows-2 gap-2 lg:gap-6 w-full mx-auto my-20">
                 {offerings.map((offering, index) => (
                     <OfferingBox key={index} offering={offering} />
                 ))}

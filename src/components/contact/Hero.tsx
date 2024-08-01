@@ -13,7 +13,7 @@ const contactBlock = (title: string, value: string) => {
 
 const Hero = () => {
     return (
-        <div className='relative h-[600px] w-[1312px] m-auto'>
+        <div className='relative h-[600px] w-[100%] m-auto'>
             <div className='w-[50%] ml-[100px]'>
                 <h1 className='font-semibold w-[100%] text-[60px] text-center'>
                     Contact Us, Let &apos s Solve Your Problems!

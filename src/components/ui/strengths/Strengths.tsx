@@ -44,13 +44,13 @@ const Strengths = () => {
         <div className='relative w-[100%]'>
             <h1 className='text-[40px] font-semibold'>What is our strength?</h1>
             {strengthDatas.map((val, index) => (
-                <div key={index} className='w-[50%] flex relative mt-[36px]'>
+                <div key={index} className='w-[100%] lg:w-[50%] flex relative mt-[36px]'>
                     <Image alt='icon' src={val.icon} width={40} height={40} className='absolute'/>
-                    <h2 className='left-[64px] absolute h-10 text-[32px] font-medium'>{val.title}</h2>
-                    <p className='ml-[64px] mt-[60px] font-medium'>{val.description}</p>
+                    <h2 className='left-[64px] absolute h-10 text-[20px] lg:text-[32px] font-medium'>{val.title}</h2>
+                    <p className='ml-[64px] mt-[60px] font-medium text-[12px] lg:text-[20px]'>{val.description}</p>
                 </div>
             ))}
-            <div className='absolute h-[100%] lg:w-[50%] w-[30%] right-0 top-0'>
+            <div className='absolute h-[100%] lg:w-[50%] w-[30%] hidden lg:block right-0 top-0'>
                 <Image alt='' src='/logo-big.png' fill objectFit="contain"/>
             </div>
         </div>
